@@ -1,5 +1,12 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+	margin:0;
+	padding:0;
+	list-style: none;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: Microsoft YaHei;
+}
 
 body {
   padding: 0;
@@ -8,6 +15,52 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #606c71; }
+.banner{
+	margin-top: 0px;
+	top:0;
+	width: 100%;
+	position: fixed;
+	background-color: rgba(745,455,745,0.2);
+}
+.l_banner{
+	height:30px;
+	float:left;
+}
+.r_banner{
+	height:30px;
+	float:right;
+}
+.l_banner li{
+	height: 30px;
+	width: 120px;
+	display: block;
+	float:left;
+	text-align: center;
+}
+.l_banner a{
+	color: rgba(255,255,255,.85);
+	padding: 5px;
+}
+.l_banner a:hover{
+	border-bottom: 2px solid rgba(255,255,255,.85);
+}
+.r_banner li{
+	height: 28px;
+	width: 80px;
+	display: block;
+	float:left;
+	text-align: center;
+	border:1px solid rgba(255,255,255,.85);
+	border-radius: 5px;
+	margin:0 5px;
+}
+.r_banner a{
+	color: rgba(255,255,255,.85);
+	padding: 5px;
+}
+.r_banner a:hover{
+   color: red;
+}
 
 a {
   color: #1e6bb8;

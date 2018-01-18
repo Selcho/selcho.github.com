@@ -23,7 +23,7 @@ var Instagram = (function(){
 								</div>\
 							</li>';
 			}
-			$('<section class="archives album"><h1 class="year">'+data[em].year+'<em>'+data[em].month+'月</em></h1>\
+			$('<section class="categories album"><h1 class="year">'+data[em].year+'<em>'+data[em].month+'月</em></h1>\
 				<ul class="img-box-ul">'+liTmpl+'</ul>\
 				</section>').appendTo($(".instagram"));
 		}
